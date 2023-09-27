@@ -12,12 +12,9 @@ const tweetSchema = new mongoose.Schema({
             ref: 'Hashtag'
         }
     ]
-
-
 }, { timestamps: true });
 
 
 const Tweet = mongoose.model('Tweet', tweetSchema);
-
 module.exports = Tweet;
-s
+ 
